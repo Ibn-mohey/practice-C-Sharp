@@ -1,7 +1,9 @@
 ﻿ using System;
+ using System.Collections.Generic;
  using System.Globalization;
  using System.Runtime.ExceptionServices;
  using Mosh_project_1.math;
+ using Mosh_project_1.exercises;
 
  namespace Mosh_project_1
 {
@@ -281,12 +283,100 @@
             for (var i = 0; i < passwordlength; i++)
                 buffer[i] =  (char)('a' + ramdomm.Next(0, 26));
             var password = new string(buffer);
+            */
+            
 
-            Console.WriteLine(password);
+            /*1- Write a program and ask the user to enter a number.
+             The number should be between 1 to 10. If the user enters a valid number, display "Valid" on the console. 
+             Otherwise, display "Invalid". (This logic is used a lot in applications where values entered into input boxes need to be validated.) */
+            /*
+            Console.WriteLine("number plz: ");
+            var inputt = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine(inputt);
+            if (inputt > 1 && inputt < 10)
+            {
+                Console.WriteLine("Valid");
+            }
+            else
+            {
+                Console.WriteLine("INvalid");
+            }
+
             */
 
+            /*
+            var numbers = new[] {3, 7, 9, 2, 14, 6};
+            // length 
 
-            Console.Read()
+            Console.WriteLine(numbers.Length);
+            Console.WriteLine("----");
+
+            // index of 
+
+            Console.WriteLine(Array.IndexOf(numbers, 9));
+
+            Console.WriteLine("----");
+
+
+            Array.Clear(numbers , 0 , 2);
+
+            foreach (var n in numbers)
+                Console.WriteLine(n);
+            Console.WriteLine("----");
+
+            var another = new int[3];
+            Array.Copy(numbers , another , 3);
+
+            foreach (var n in another)
+                Console.WriteLine(n);
+
+
+            Console.WriteLine("----");
+            // sort
+            Array.Sort(numbers);
+            foreach (var n in numbers)
+                Console.WriteLine(n);
+            */
+            /*
+            var numbers = new List<int>() {1, 2, 3, 4};
+            numbers.Add(1);
+            numbers.AddRange(new int[3] {5, 6, 7});
+
+            foreach (var n in numbers)
+                Console.WriteLine(n);
+            Console.WriteLine("----");
+
+            Console.WriteLine(numbers.IndexOf(1));
+            Console.WriteLine("----");
+            Console.WriteLine(numbers.LastIndexOf(1));
+            Console.WriteLine("----");
+            Console.WriteLine(numbers.Count);
+            Console.WriteLine("----");
+            numbers.Remove(1);
+
+            for (int i = 0; i < numbers.Count; i++)
+              {
+                if (numbers[i] == 1)
+                    numbers.Remove(numbers[i]);
+            }
+
+            foreach (var n in numbers)
+                Console.WriteLine(n);
+
+            numbers.Clear();
+            
+            */
+            //EX1
+            
+
+
+
+
+
+
+
+
+
 
 
 
