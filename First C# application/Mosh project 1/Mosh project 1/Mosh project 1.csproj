@@ -43,24 +43,33 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EX1.cs" />
-    <Compile Include="exercises\Component1.cs">
-      <SubType>Component</SubType>
-    </Compile>
-    <Compile Include="exercises\Component1.Designer.cs">
-      <DependentUpon>Component1.cs</DependentUpon>
-    </Compile>
+    <Compile Include="exercises\Ex1.cs" />
+    <Compile Include="exercises\Demo.cs" />
+    <Compile Include="Intermediate\Customer.cs" />
+    <Compile Include="Intermediate\I07.constructor.cs" />
+    <Compile Include="Intermediate\I09.Methods.cs" />
+    <Compile Include="Intermediate\I10.fields.cs" />
+    <Compile Include="Intermediate\I13.indexers.cs" />
+    <Compile Include="Intermediate\Order.cs" />
     <Compile Include="math\Calculator.cs" />
-    <Compile Include="Person.cs" />
+    <Compile Include="Intermediate\Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RbgColor.cs" />
+    <Compile Include="walkthrow\StringBuilder.cs" />
+    <Compile Include="walkthrow\summarisingText.cs" />
+    <Compile Include="walkthrow\walkthrow1.cs" />
+    <Compile Include="walkthrow\strings.cs" />
+    <Compile Include="walkthrow\working with files.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
     <None Include="ClassDiagram1.cd" />
+    <Compile Include="Intermediate\I06.classes.cs" />
+    <None Include="ClassDiagram2.cd" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Classes\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

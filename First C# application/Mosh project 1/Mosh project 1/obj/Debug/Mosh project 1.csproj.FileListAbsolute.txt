@@ -7,6 +7,6 @@ E:\career\Dataa\github\C#-practice\First C# application\Mosh project 1\Mosh proj
 E:\career\Dataa\github\practice-C#\First C# application\Mosh project 1\Mosh project 1\bin\Debug\Mosh project 1.exe.config
 E:\career\Dataa\github\practice-C#\First C# application\Mosh project 1\Mosh project 1\obj\Debug\Mosh project 1.exe
 E:\career\Dataa\github\practice-C#\First C# application\Mosh project 1\Mosh project 1\obj\Debug\Mosh project 1.pdb
-E:\career\Dataa\github\practice-C#\First C# application\Mosh project 1\Mosh project 1\obj\Debug\Mosh project 1.csprojResolveAssemblyReference.cache
 E:\career\Dataa\github\practice-C#\First C# application\Mosh project 1\Mosh project 1\bin\Debug\Mosh project 1.exe
 E:\career\Dataa\github\practice-C#\First C# application\Mosh project 1\Mosh project 1\bin\Debug\Mosh project 1.pdb
+E:\career\Dataa\github\practice-C#\First C# application\Mosh project 1\Mosh project 1\obj\Debug\Mosh project 1.csprojResolveAssemblyReference.cache

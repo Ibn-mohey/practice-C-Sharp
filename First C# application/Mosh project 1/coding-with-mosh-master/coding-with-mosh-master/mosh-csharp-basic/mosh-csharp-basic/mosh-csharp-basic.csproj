@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{BC428A53-4B68-48FF-8509-B732E0FFEA6F}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>mosh_csharp_basic</RootNamespace>
+    <AssemblyName>mosh-csharp-basic</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>mosh_csharp_basic.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="arrys_and_lists\arrays.cs" />
+    <Compile Include="arrys_and_lists\arry and list exercises\array_list_exercise_1.cs" />
+    <Compile Include="arrys_and_lists\lists.cs" />
+    <Compile Include="control_flow\condition exercises\conditional_exercises.cs" />
+    <Compile Include="control_flow\condition exercises\conditional_statements.cs" />
+    <Compile Include="control_flow\Iteration statements\doloops.cs" />
+    <Compile Include="control_flow\Iteration statements\foreachloop.cs" />
+    <Compile Include="control_flow\Iteration statements\forloop.cs" />
+    <Compile Include="control_flow\Iteration statements\iterationexercises.cs" />
+    <Compile Include="control_flow\Iteration statements\randomclass.cs" />
+    <Compile Include="control_flow\Iteration statements\whileloop.cs" />
+    <Compile Include="control_flow\condition exercises\season.cs" />
+    <Compile Include="control_flow\switches.cs" />
+    <Compile Include="Debugging\CallStackWindow.cs" />
+    <Compile Include="Debugging\Program.cs" />
+    <Compile Include="nonprimitive\enums\enumexplained.cs" />
+    <Compile Include="nonprimitive\arrays.cs" />
+    <Compile Include="nonprimitive\classes\math\Calculator.cs" />
+    <Compile Include="nonprimitive\classes\Person.cs" />
+    <Compile Include="nonprimitive\classes\ReferenceType.cs" />
+    <Compile Include="nonprimitive\enums.cs" />
+    <Compile Include="nonprimitive\structs\StructCalculator.cs" />
+    <Compile Include="nonprimitive\structs\StructPerson.cs" />
+    <Compile Include="primitive\helloworld.cs" />
+    <Compile Include="primitive\operators.cs" />
+    <Compile Include="nonprimitive\strings.cs" />
+    <Compile Include="primitive\type-conversions.cs" />
+    <Compile Include="primitive\variables-and-constants.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Reference Type\referencetype.cs" />
+    <Compile Include="Value types example\valuetype.cs" />
+    <Compile Include="working with files\Directory and DirectoryInfo\DirectoryAndDirectoryInfo.cs" />
+    <Compile Include="working with files\file and fileInfo\FileAndFileInfo.cs" />
+    <Compile Include="working with files\path\PathClass.cs" />
+    <Compile Include="working with files\working with files exercises\filesex2.cs" />
+    <Compile Include="working with files\working with files exercises\filesex1.cs" />
+    <Compile Include="working_with_dates\DateTime exercise.cs" />
+    <Compile Include="working_with_dates\TimeSpan exercise.cs" />
+    <Compile Include="working_with_dates\DateTime.cs" />
+    <Compile Include="working_with_dates\TimeSpan.cs" />
+    <Compile Include="working_with_text\exercise with working with text\exercise 2.cs" />
+    <Compile Include="working_with_text\exercise with working with text\exercise 3.cs" />
+    <Compile Include="working_with_text\exercise with working with text\exercise 1.cs" />
+    <Compile Include="working_with_text\exercise with working with text\exercise 4.cs" />
+    <Compile Include="working_with_text\exercise with working with text\exercise 5.cs" />
+    <Compile Include="working_with_text\procedural programming\ex1.cs" />
+    <Compile Include="working_with_text\procedural programming\ex2.cs" />
+    <Compile Include="working_with_text\procedural programming\ex3.cs" />
+    <Compile Include="working_with_text\procedural programming\ex4.cs" />
+    <Compile Include="working_with_text\procedural programming\ex5.cs" />
+    <Compile Include="working_with_text\procedural programming\ex6.cs" />
+    <Compile Include="working_with_text\procedural programming\ex7.cs" />
+    <Compile Include="working_with_text\procedural-programming.cs" />
+    <Compile Include="working_with_text\stringbuilder.cs" />
+    <Compile Include="working_with_text\StringUtility.cs" />
+    <Compile Include="working_with_text\summarising_text.cs" />
+    <Compile Include="working_with_text\text_string.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="File_and_FileInfo\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
