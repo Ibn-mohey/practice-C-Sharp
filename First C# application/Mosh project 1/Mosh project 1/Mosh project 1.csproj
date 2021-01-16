@@ -45,12 +45,22 @@
   <ItemGroup>
     <Compile Include="exercises\Ex1.cs" />
     <Compile Include="exercises\Demo.cs" />
+    <Compile Include="Intermediate\Canvas.cs" />
     <Compile Include="Intermediate\Customer.cs" />
     <Compile Include="Intermediate\I07.constructor.cs" />
     <Compile Include="Intermediate\I09.Methods.cs" />
     <Compile Include="Intermediate\I10.fields.cs" />
     <Compile Include="Intermediate\I13.indexers.cs" />
+    <Compile Include="Intermediate\I17 .Inheritance.cs" />
+    <Compile Include="Intermediate\I18 Composition.cs" />
+    <Compile Include="Intermediate\I21.Access Modifiers.cs" />
+    <Compile Include="Intermediate\I22.Constructors and Inheritance.cs" />
+    <Compile Include="Intermediate\I23.Upcasting and Downcasting.cs" />
+    <Compile Include="Intermediate\I24.Boxing and Unboxing.cs" />
+    <Compile Include="Intermediate\I27.Method Overriding.cs" />
+    <Compile Include="Intermediate\I34.Interfaces and Extensibility.cs" />
     <Compile Include="Intermediate\Order.cs" />
+    <Compile Include="Intermediate\Shape.cs" />
     <Compile Include="math\Calculator.cs" />
     <Compile Include="Intermediate\Person.cs" />
     <Compile Include="Program.cs" />
@@ -69,6 +79,12 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Classes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TestLibrary\TestLibrary.csproj">
+      <Project>{d13a90fc-cb7b-403e-8db0-fe74a0c8e9df}</Project>
+      <Name>TestLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

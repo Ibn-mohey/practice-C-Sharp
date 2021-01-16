@@ -5,6 +5,8 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mosh project 1", "Mosh project 1\Mosh project 1.csproj", "{E79CA5D1-1647-452E-95B9-8E70238BA687}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestLibrary", "TestLibrary\TestLibrary.csproj", "{D13A90FC-CB7B-403E-8DB0-FE74A0C8E9DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{E79CA5D1-1647-452E-95B9-8E70238BA687}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E79CA5D1-1647-452E-95B9-8E70238BA687}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E79CA5D1-1647-452E-95B9-8E70238BA687}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D13A90FC-CB7B-403E-8DB0-FE74A0C8E9DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D13A90FC-CB7B-403E-8DB0-FE74A0C8E9DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D13A90FC-CB7B-403E-8DB0-FE74A0C8E9DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D13A90FC-CB7B-403E-8DB0-FE74A0C8E9DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

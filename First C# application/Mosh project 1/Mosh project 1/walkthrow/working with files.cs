@@ -9,8 +9,8 @@ namespace Mosh_project_1.walkthrow
         /* fil > static > every time check in for each file more time if alot of files */
         public static void Run()
         {
-            var fromPath = @"E:\career\Dataa\github\practice-C#\First C# application\Mosh project 1";
-            var toPath = @"E:\career\Dataa\github\practice-C#\First C# application\Mosh project 1\Mosh project 1";
+            // var fromPath = @"E:\career\Dataa\github\practice-C#\First C# application\Mosh project 1";
+            // var toPath = @"E:\career\Dataa\github\practice-C#\First C# application\Mosh project 1\Mosh project 1";
             /*
             File.
                 copy

@@ -1,6 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 
-namespace Mosh_project_1.Intermediate
+namespace TestLibrary
 {
     public class Customer
     {
