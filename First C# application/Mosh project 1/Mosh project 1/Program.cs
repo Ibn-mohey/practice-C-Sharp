@@ -3,6 +3,7 @@
 using System.Collections.Generic;
  using System.Globalization;
  using System.Runtime.ExceptionServices;
+ using Mosh_project_1.Advanced;
  using Mosh_project_1.Intermediate;
  using Mosh_project_1.walkthrow;
  using StringBuilder = System.Text.StringBuilder;
@@ -98,7 +99,9 @@ using System.Collections.Generic;
             // I27.Run();
 
             /* 034 Interfaces and Extensibility.mp4 */
-            I34.Run();
+           // I34.Run();
+
+           // AD05.Run();
 
             Console.WriteLine("_______________");
             Console.WriteLine("program end");
