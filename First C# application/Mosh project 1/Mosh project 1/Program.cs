@@ -103,6 +103,14 @@ using System.Collections.Generic;
 
            // AD05.Run();
 
+            //AD06.Run();
+
+            //AD07.Run();
+
+            /* 008 Events.mp4 */
+
+           // AD08.Run();
+
             Console.WriteLine("_______________");
             Console.WriteLine("program end");
             

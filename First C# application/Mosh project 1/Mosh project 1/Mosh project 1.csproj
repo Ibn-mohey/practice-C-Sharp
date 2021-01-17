@@ -45,6 +45,9 @@
   <ItemGroup>
     <Compile Include="Advanced\AD.05Generics.cs" />
     <Compile Include="Advanced\AD05.BookList.cs" />
+    <Compile Include="Advanced\AD06.Delegates.cs" />
+    <Compile Include="Advanced\AD07.Lambda Expressions.cs" />
+    <Compile Include="Advanced\AD08.Events.cs" />
     <Compile Include="exercises\Ex1.cs" />
     <Compile Include="exercises\Demo.cs" />
     <Compile Include="Intermediate\Canvas.cs" />

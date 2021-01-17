@@ -99,11 +99,9 @@ namespace Mosh_project_1.Advanced
             Console.WriteLine("has value ? " + num2.HasValue);
             Console.WriteLine("value: " + num2.GetValueOrDefault());
 
-            var num2 = new Nullable<int>();
-            Console.WriteLine("has value ? " + num2.HasValue);
-            Console.WriteLine("value: " + num2.GetValueOrDefault()); // it exist already in system.Nullable
-
-            }
+            var num3 = new Nullable<int>();
+            Console.WriteLine("has value ? " + num3.HasValue);
+            Console.WriteLine("value: " + num3.GetValueOrDefault()); // it exist already in system.Nullable
 
         }
 
