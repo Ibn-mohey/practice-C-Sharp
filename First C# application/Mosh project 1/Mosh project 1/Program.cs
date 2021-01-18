@@ -84,7 +84,7 @@ using System.Collections.Generic;
             //I21.Run();
 
 
-            /* construtor lessons */ 
+            /* construtor lessons */
             //I22.Run();
 
             /* 023 Upcasting and Downcasting */
@@ -99,9 +99,9 @@ using System.Collections.Generic;
             // I27.Run();
 
             /* 034 Interfaces and Extensibility.mp4 */
-           // I34.Run();
+            // I34.Run();
 
-           // AD05.Run();
+            // AD05.Run();
 
             //AD06.Run();
 
@@ -109,7 +109,15 @@ using System.Collections.Generic;
 
             /* 008 Events.mp4 */
 
-           // AD08.Run();
+            // AD08.Run();
+            /* 009 Extension Methods.mp4*/
+            //AD09.Run();
+
+            /* AD10.LINQ*/
+            //AD10.Run();
+
+            /*  AD13.Exception Handling      */
+            AD13.Run();
 
             Console.WriteLine("_______________");
             Console.WriteLine("program end");
