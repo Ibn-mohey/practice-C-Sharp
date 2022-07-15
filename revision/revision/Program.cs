@@ -32,7 +32,7 @@ namespace revision
 
             //listAndArrays.demo2();
 
-            workingWithData.demo();
+            workingWithData.demo2();
             Console.WriteLine("\n--------\nend of the program\n");
         }
     }
