@@ -41,4 +41,51 @@ namespace revision._01.Basics_for_Beginners
             Console.WriteLine("total minutes " + timeSpan.TotalMinutes);
         }
     }
+
+    internal class workingWithStrings
+    {
+        public static void demo1()
+        {
+            /*
+             * Tolower
+             * Touppre
+             * Trim
+             * InexOf
+             * LastIndexOf
+             * substring(start) >>to the end
+             * substring(start , length)
+             * Replace()
+             *
+             *
+             string.IsNullOrEmpty(str)
+             string.IsNullOrWhiteSpace(srt)
+             str.split(' ')
+             */
+            //string s = "1234";
+            //int i = int.Parse(s);
+            //int j = Convert.ToInt32(s);
+        }
+
+        public static void demo2()
+        {
+            var sentence = " this is long text this is long text this is long textthis is long textthis is long textthis is long textthis is long textthis is long textthis is long textthis is long text";
+            var summary = StringUtility.SummerizeText(sentence, 25);
+            Console.WriteLine(summary);
+        }
+
+        public static void stirngBuilder()
+        {
+            var builder = new StringBuilder();
+            builder.Append('-', 10);
+            Console.WriteLine(builder);
+            /* append
+             * append format
+             * append line
+             * replce
+             * remove
+             * insert(index , new string)
+             *
+             */
+        }
+    }
 }

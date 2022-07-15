@@ -48,6 +48,7 @@
     <Compile Include="01.Basics for Beginners\5. Control Flow.cs" />
     <Compile Include="01.Basics for Beginners\6. Arrays and Lists.cs" />
     <Compile Include="01.Basics for Beginners\Season.cs" />
+    <Compile Include="01.Basics for Beginners\StringUtility.cs" />
     <Compile Include="01.Basics for Beginners\working with data, text ,files.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
