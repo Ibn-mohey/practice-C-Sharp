@@ -6,11 +6,7 @@ using System.Threading.Tasks;
 
 namespace Csharp_intermediate
 {
-    internal class Program
+    class _03_Association_between_Classes
     {
-        private static void Main(string[] args)
-        {
-            Lesson_2.demo2();
-        }
     }
 }
