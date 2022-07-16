@@ -88,4 +88,39 @@ namespace revision._01.Basics_for_Beginners
              */
         }
     }
+
+    internal class workingWithFiles
+    {
+        public static void Main()
+        {
+            /* file and file info
+
+             * methods copy delete move
+             * file >> static
+             * fileinfo >> instance
+             *  create
+             *  copy
+             *  delete
+             *  exists
+             *  getattributes
+             *  move
+             *  readalltext
+             *
+             *  directory and directoyinfo
+             *  creatdirectory
+             *  delete
+             *  exists
+             *  getcurrentdirectory
+             *  getfiles
+             *  move
+             *  getlogicaldrives
+             *  @"c:\temp\myfiles.extention"
+             *
+             *  var fileifo = new fileinfo(path)
+             *  fileinfo. copyto() delete() moveto() ex get
+             *  fileinfo.read >> not good
+             *
+             */
+        }
+    }
 }

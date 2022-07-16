@@ -32,7 +32,7 @@ namespace revision
 
             //listAndArrays.demo2();
 
-            workingWithStrings.stirngBuilder();
+            workingWithFiles.Main();
             Console.WriteLine("\n--------\nend of the program\n");
         }
     }
